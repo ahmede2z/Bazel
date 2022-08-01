@@ -1,0 +1,470 @@
+@media screen and (max-width: 400px) {
+    /* Nav */
+    .nav-icon {
+        display: none !important;
+    }
+    .nav-icon::before {
+        display: none !important;
+    }
+    /* head */
+    .carousel-control {
+        display: none;
+    }
+    .carousel-cont h1 {
+        font-size: 3.8rem;
+        text-align: center;
+    }
+    .carousel-cont p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    /* sec2 */
+    .sec2-cont {
+        width: 100% !important;
+    }
+    .sec2-cont h6 {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    .sec2-cont p {
+        font-weight: 100 !important;
+        font-size: 19px;
+    }
+    /* sec3 */
+    .sec3-header h2 {
+        font-size: 2rem;
+    }
+    .sec3-header h2::after {
+        font-size: 4rem;
+    }
+    .sec3-header p {
+        font-size: 1.2rem;
+    }
+    /* sec4 */
+    .sec4-bot-left h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .sec4-bot-left h2::after {
+        left: 35%;
+        font-size: 5rem;
+        font-weight: 900;
+        transform: translatey(-40%), translateX(-50%);
+    }
+    /* sec=5 */
+    .sec5-header h2 {
+        font-size: 2rem;
+    }
+    .sec5-header h2::after {
+        left: 50%;
+        font-size: 4rem;
+        transform: translatey(-40%) translateX(-50%);
+    }
+    .sec5-cont-prim {
+        margin-top: 0;
+    }
+    /* sec-6 */
+    .carousel-s {
+        height: 90vh;
+    }
+    .carousel-s>a {
+        display: none;
+    }
+    .carousel-s .carousel-inner {
+        height: 100% !important;
+    }
+    .sec6-car {
+        width: 95%;
+        padding: 30px !important;
+    }
+    .sec6-car-img {
+        width: 30%;
+    }
+    .sec6-car-info-cont h5 {
+        font-size: 1rem;
+    }
+    .sec6-car-info-cont p {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    /* sec- 7*/
+    .sec7 iframe {
+        height: 70vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sec7-form{
+        padding: 20px !important;
+    }
+    .sec6-form-header h2 {
+        font-size: 2rem;
+    }
+    .sec6-form-header h2::after {
+        font-size: 3.5rem;
+        font-weight: 900;
+        transform: translatey(-30%) translateX(-15%);
+    }
+    .sec6-form-header p {
+        font-size: 1.1rem;
+    }
+    .sec7-form-cont input {
+        padding: 20px;
+    }
+    .sec7-form-cont textarea {
+        padding: 20px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px) {
+    /* Nav */
+    .nav-icon {
+        display: none !important;
+    }
+    .nav-icon::before {
+        display: none !important;
+    }
+    /* head */
+    .carousel-control {
+        display: none;
+    }
+    .carousel-cont h1 {
+        font-size: 3.8rem;
+        text-align: center;
+    }
+    .carousel-cont p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    /* sec2 */
+    .sec2-cont {
+        width: 100% !important;
+        font-size: 0.9rem;
+    }
+    .sec2-cont p {
+        font-weight: 100 !important;
+        font-size: 21px;
+    }
+    /* sec3 */
+    .sec3-header h2 {
+        font-size: 2rem;
+    }
+    .sec3-header h2::after {
+        font-size: 4rem;
+    }
+    .sec3-header p {
+        font-size: 1.2rem;
+    }
+    /* sec4 */
+    .sec4-bot-left h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .sec4-bot-left h2::after {
+        left: 42%;
+        font-size: 5rem;
+        font-weight: 900;
+        transform: translatey(-40%), translateX(-50%);
+    }
+    /* sec=5 */
+    .sec5-header h2 {
+        font-size: 2rem;
+    }
+    .sec5-header h2::after {
+        left: 50%;
+        font-size: 4rem;
+        transform: translatey(-40%) translateX(-50%);
+    }
+    .sec5-cont-prim {
+        margin-top: 0;
+    }
+    /* sec-6 */
+    .carousel-s {
+        height: 90vh;
+    }
+    .carousel-s>a {
+        display: none;
+    }
+    .carousel-s .carousel-inner {
+        height: 100% !important;
+    }
+    .sec6-car {
+        width: 95%;
+        padding: 40px !important;
+    }
+    .sec6-car-img {
+        width: 20%;
+    }
+    .sec6-car-info-cont h5 {
+        font-size: 1rem;
+    }
+    .sec6-car-info-cont p {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    /* sec- 7*/
+    .sec7 iframe {
+        height: 70vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sec7-form{
+        padding: 20px !important;
+    }
+    .sec6-form-header h2 {
+        font-size: 2rem;
+    }
+    .sec6-form-header h2::after {
+        font-size: 3.5rem;
+        font-weight: 900;
+        transform: translatey(-30%) translateX(-15%);
+    }
+    .sec6-form-header p {
+        font-size: 1.1rem;
+    }
+    .sec7-form-cont input {
+        padding: 20px;
+    }
+    .sec7-form-cont textarea {
+        padding: 20px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:769px) {
+    /* Nav */
+    nav {
+        padding: 0 !important;
+    }
+    .nav-icon {
+        display: none !important;
+    }
+    .nav-icon::before {
+        display: none;
+    }
+    /* head */
+    .carousel-control {
+        display: none;
+    }
+    .carousel-cont h1 {
+        font-size: 3.4rem;
+        text-align: center;
+    }
+    .carousel-cont p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    /* sec2 */
+    .sec2-cont {
+        width: 100% !important;
+    }
+    .sec2-cont p {
+        font-weight: 100 !important;
+        font-size: 18px;
+    }
+    /* sec4 */
+    .sec4-bot-left h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .sec4-bot-left h2::after {
+        left: 40%;
+        font-size: 5rem;
+        font-weight: 900;
+        transform: translatey(-40%), translateX(-50%);
+    }
+    /* sec=5 */
+    .sec5-header h2 {
+        font-size: 2rem;
+    }
+    .sec5-header h2::after {
+        left: 50%;
+        font-size: 4rem;
+        transform: translatey(-40%) translateX(-50%);
+    }
+    .sec5-cont-prim {
+        margin-top: 0;
+    }
+    /* sec-6 */
+    .carousel-s {
+        height: 90vh;
+    }
+    .carousel-s>a {
+        display: none;
+    }
+    .carousel-s .carousel-inner {
+        height: 100% !important;
+    }
+    .sec6-car {
+        width: 100%;
+        padding: 40px !important;
+    }
+    .sec6-car-img {
+        width: 20%;
+    }
+    .sec6-car-info-cont h5 {
+        font-size: 1rem;
+    }
+    .sec6-car-info-cont p {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    /* sec- 7*/
+    .sec7 iframe {
+        height: 70vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sec7-form{
+        padding: 20px !important;
+    }
+    .sec6-form-header h2 {
+        font-size: 2rem;
+    }
+    .sec6-form-header h2::after {
+        font-size: 3.5rem;
+        font-weight: 900;
+        transform: translatey(-30%) translateX(-15%);
+    }
+    .sec6-form-header p {
+        font-size: 1.1rem;
+    }
+    .sec7-form-cont input {
+        padding: 23px;
+    }
+    .sec7-form-cont textarea {
+        padding: 20px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:992px) {
+    /* Nav */
+    .nav-icon {
+        display: none !important;
+    }
+    .nav-icon::before {
+        display: none;
+    }
+    /* head */
+    .carousel-cont h1 {
+        font-size: 3.9rem;
+        text-align: center;
+    }
+    .carousel-cont p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    /* sec2 */
+    .sec2-cont {
+        width: 100% !important;
+    }
+    .sec2-cont p {
+        font-weight: 100 !important;
+        font-size: 18px;
+    }
+    /* sec4 */
+    .sec4-bot-left h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .sec4-bot-left h2::after {
+        left: 43%;
+        font-size: 5rem;
+        font-weight: 900;
+        transform: translatey(-40%), translateX(-50%);
+    }
+    /* sec=5 */
+    .sec5-header h2 {
+        font-size: 2rem;
+    }
+    .sec5-header h2::after {
+        left: 50%;
+        font-size: 4rem;
+        transform: translatey(-40%) translateX(-50%);
+    }
+    .sec5-cont-prim {
+        margin-top: 0;
+    }
+    /* sec-6 */
+    .carousel-s {
+        height: 90vh;
+    }
+    .carousel-s>a {
+        display: none;
+    }
+    .carousel-s .carousel-inner {
+        height: 100% !important;
+    }
+    .sec6-car {
+        width: 95%;
+        padding: 40px !important;
+    }
+    .sec6-car-img {
+        width: 15%;
+    }
+    .sec6-car-info-cont h5 {
+        font-size: 1rem;
+    }
+    .sec6-car-info-cont p {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    
+    /* sec- 7*/
+    .sec7 iframe {
+        height: 70vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sec7-form{
+        padding: 30px 50px !important;
+    }
+    .sec6-form-header h2 {
+        font-size: 2rem;
+    }
+    .sec6-form-header h2::after {
+        font-size: 3.5rem;
+        font-weight: 900;
+        transform: translatey(-30%) translateX(-15%);
+    }
+    .sec6-form-header p {
+        font-size: 1.1rem;
+    }
+    .sec7-form-cont input {
+        padding: 23px;
+    }
+    .sec7-form-cont textarea {
+        padding: 20px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1227px) {
+    /* Nav */
+    .nav-icon {
+        margin-left: 100px !important;
+        padding-left: 10px !important;
+    }
+    /* sec-6 */
+    .carousel-s {
+        height: 90vh;
+    }
+    .carousel-s .carousel-inner {
+        height: 100% !important;
+    }
+    .sec6-car {
+        width: 78%;
+        padding: 40px !important;
+    }
+    .sec6-car-img {
+        width: 13%;
+    }
+    .sec6-car-info-cont h5 {
+        font-size: 1rem;
+    }
+    .sec6-car-info-cont p {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+}
